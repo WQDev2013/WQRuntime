@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0986A7B21C6931E009F6FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0986A7A21C6931E009F6FEF /* AppDelegate.m */; };
+		A0986A7E21C6931E009F6FEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0986A7D21C6931E009F6FEF /* ViewController.m */; };
+		A0986A8121C6931E009F6FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0986A7F21C6931E009F6FEF /* Main.storyboard */; };
+		A0986A8321C6931F009F6FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0986A8221C6931F009F6FEF /* Assets.xcassets */; };
+		A0986A8621C6931F009F6FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0986A8421C6931F009F6FEF /* LaunchScreen.storyboard */; };
+		A0986A8921C6931F009F6FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0986A8821C6931F009F6FEF /* main.m */; };
+		A0B4601621E200E700F2157B /* WQButtonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4601421E200E700F2157B /* WQButtonTestViewController.m */; };
+		A0B4601921E2012800F2157B /* UITapGestureRecognizer+WQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B4601821E2012800F2157B /* UITapGestureRecognizer+WQExtension.m */; };
+		A0E6B69221E2E6F40084200C /* WQHandleNilObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6B69121E2E6F40084200C /* WQHandleNilObjectViewController.m */; };
+		A0E6B69721E2E7490084200C /* NSMutableDictionary+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6B69321E2E7490084200C /* NSMutableDictionary+Exception.m */; };
+		A0E6B69821E2E7490084200C /* NSMutableArray+Eception.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6B69521E2E7490084200C /* NSMutableArray+Eception.m */; };
+		A0E6B69D21E2F4610084200C /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6B69C21E2F4610084200C /* Student.m */; };
+		A0E6B6A021E2FA3C0084200C /* JSONToModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6B69F21E2FA3C0084200C /* JSONToModelViewController.m */; };
+		A0E6B6A621E341090084200C /* UIControl+WQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E6B6A521E341090084200C /* UIControl+WQExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0986A7621C6931E009F6FEF /* WQRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0986A7921C6931E009F6FEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0986A7A21C6931E009F6FEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0986A7C21C6931E009F6FEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0986A7D21C6931E009F6FEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0986A8021C6931E009F6FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0986A8221C6931F009F6FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0986A8521C6931F009F6FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0986A8721C6931F009F6FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0986A8821C6931F009F6FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0B4601221E200E700F2157B /* WQButtonTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQButtonTestViewController.h; sourceTree = "<group>"; };
+		A0B4601421E200E700F2157B /* WQButtonTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQButtonTestViewController.m; sourceTree = "<group>"; };
+		A0B4601721E2012800F2157B /* UITapGestureRecognizer+WQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+WQExtension.h"; sourceTree = "<group>"; };
+		A0B4601821E2012800F2157B /* UITapGestureRecognizer+WQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+WQExtension.m"; sourceTree = "<group>"; };
+		A0E6B69021E2E6F40084200C /* WQHandleNilObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQHandleNilObjectViewController.h; sourceTree = "<group>"; };
+		A0E6B69121E2E6F40084200C /* WQHandleNilObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQHandleNilObjectViewController.m; sourceTree = "<group>"; };
+		A0E6B69321E2E7490084200C /* NSMutableDictionary+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Exception.m"; sourceTree = "<group>"; };
+		A0E6B69421E2E7490084200C /* NSMutableArray+Eception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Eception.h"; sourceTree = "<group>"; };
+		A0E6B69521E2E7490084200C /* NSMutableArray+Eception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Eception.m"; sourceTree = "<group>"; };
+		A0E6B69621E2E7490084200C /* NSMutableDictionary+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Exception.h"; sourceTree = "<group>"; };
+		A0E6B69B21E2F4610084200C /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A0E6B69C21E2F4610084200C /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A0E6B69E21E2FA3C0084200C /* JSONToModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONToModelViewController.h; sourceTree = "<group>"; };
+		A0E6B69F21E2FA3C0084200C /* JSONToModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONToModelViewController.m; sourceTree = "<group>"; };
+		A0E6B6A421E341090084200C /* UIControl+WQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+WQExtension.h"; sourceTree = "<group>"; };
+		A0E6B6A521E341090084200C /* UIControl+WQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+WQExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0986A7321C6931E009F6FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0986A6D21C6931E009F6FEF = {
+			isa = PBXGroup;
+			children = (
+				A0986A7821C6931E009F6FEF /* WQRuntime */,
+				A0986A7721C6931E009F6FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0986A7721C6931E009F6FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0986A7621C6931E009F6FEF /* WQRuntime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0986A7821C6931E009F6FEF /* WQRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				A0986A7921C6931E009F6FEF /* AppDelegate.h */,
+				A0986A7A21C6931E009F6FEF /* AppDelegate.m */,
+				A0986A7C21C6931E009F6FEF /* ViewController.h */,
+				A0986A7D21C6931E009F6FEF /* ViewController.m */,
+				A0B4601021E200E700F2157B /* 按钮与手势防暴力点击 */,
+				A0986A9121C69527009F6FEF /* 交换方法处理异常 */,
+				A0E6B69A21E2F43A0084200C /* JSON转Model与序列化 */,
+				A0986A9021C69527009F6FEF /* 添加变量方法 */,
+				A0986A7F21C6931E009F6FEF /* Main.storyboard */,
+				A0986A8221C6931F009F6FEF /* Assets.xcassets */,
+				A0986A8421C6931F009F6FEF /* LaunchScreen.storyboard */,
+				A0986A8721C6931F009F6FEF /* Info.plist */,
+				A0986A8821C6931F009F6FEF /* main.m */,
+			);
+			path = WQRuntime;
+			sourceTree = "<group>";
+		};
+		A0986A9021C69527009F6FEF /* 添加变量方法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "添加变量方法";
+			sourceTree = "<group>";
+		};
+		A0986A9121C69527009F6FEF /* 交换方法处理异常 */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6B69421E2E7490084200C /* NSMutableArray+Eception.h */,
+				A0E6B69521E2E7490084200C /* NSMutableArray+Eception.m */,
+				A0E6B69621E2E7490084200C /* NSMutableDictionary+Exception.h */,
+				A0E6B69321E2E7490084200C /* NSMutableDictionary+Exception.m */,
+				A0E6B69021E2E6F40084200C /* WQHandleNilObjectViewController.h */,
+				A0E6B69121E2E6F40084200C /* WQHandleNilObjectViewController.m */,
+			);
+			path = "交换方法处理异常";
+			sourceTree = "<group>";
+		};
+		A0B4601021E200E700F2157B /* 按钮与手势防暴力点击 */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6B6A421E341090084200C /* UIControl+WQExtension.h */,
+				A0E6B6A521E341090084200C /* UIControl+WQExtension.m */,
+				A0B4601721E2012800F2157B /* UITapGestureRecognizer+WQExtension.h */,
+				A0B4601821E2012800F2157B /* UITapGestureRecognizer+WQExtension.m */,
+				A0B4601221E200E700F2157B /* WQButtonTestViewController.h */,
+				A0B4601421E200E700F2157B /* WQButtonTestViewController.m */,
+			);
+			path = "按钮与手势防暴力点击";
+			sourceTree = "<group>";
+		};
+		A0E6B69A21E2F43A0084200C /* JSON转Model与序列化 */ = {
+			isa = PBXGroup;
+			children = (
+				A0E6B69B21E2F4610084200C /* Student.h */,
+				A0E6B69C21E2F4610084200C /* Student.m */,
+				A0E6B69E21E2FA3C0084200C /* JSONToModelViewController.h */,
+				A0E6B69F21E2FA3C0084200C /* JSONToModelViewController.m */,
+			);
+			path = "JSON转Model与序列化";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0986A7521C6931E009F6FEF /* WQRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0986A8C21C6931F009F6FEF /* Build configuration list for PBXNativeTarget "WQRuntime" */;
+			buildPhases = (
+				A0986A7221C6931E009F6FEF /* Sources */,
+				A0986A7321C6931E009F6FEF /* Frameworks */,
+				A0986A7421C6931E009F6FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQRuntime;
+			productName = WQRuntime;
+			productReference = A0986A7621C6931E009F6FEF /* WQRuntime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0986A6E21C6931E009F6FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = chenweiqiang;
+				TargetAttributes = {
+					A0986A7521C6931E009F6FEF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A0986A7121C6931E009F6FEF /* Build configuration list for PBXProject "WQRuntime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0986A6D21C6931E009F6FEF;
+			productRefGroup = A0986A7721C6931E009F6FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0986A7521C6931E009F6FEF /* WQRuntime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0986A7421C6931E009F6FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0986A8621C6931F009F6FEF /* LaunchScreen.storyboard in Resources */,
+				A0986A8321C6931F009F6FEF /* Assets.xcassets in Resources */,
+				A0986A8121C6931E009F6FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0986A7221C6931E009F6FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E6B69821E2E7490084200C /* NSMutableArray+Eception.m in Sources */,
+				A0E6B6A621E341090084200C /* UIControl+WQExtension.m in Sources */,
+				A0E6B6A021E2FA3C0084200C /* JSONToModelViewController.m in Sources */,
+				A0986A7E21C6931E009F6FEF /* ViewController.m in Sources */,
+				A0986A8921C6931F009F6FEF /* main.m in Sources */,
+				A0B4601921E2012800F2157B /* UITapGestureRecognizer+WQExtension.m in Sources */,
+				A0E6B69221E2E6F40084200C /* WQHandleNilObjectViewController.m in Sources */,
+				A0E6B69721E2E7490084200C /* NSMutableDictionary+Exception.m in Sources */,
+				A0E6B69D21E2F4610084200C /* Student.m in Sources */,
+				A0B4601621E200E700F2157B /* WQButtonTestViewController.m in Sources */,
+				A0986A7B21C6931E009F6FEF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0986A7F21C6931E009F6FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0986A8021C6931E009F6FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0986A8421C6931F009F6FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0986A8521C6931F009F6FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0986A8A21C6931F009F6FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0986A8B21C6931F009F6FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0986A8D21C6931F009F6FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WQRuntime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cwq.WQRuntime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0986A8E21C6931F009F6FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WQRuntime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cwq.WQRuntime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0986A7121C6931E009F6FEF /* Build configuration list for PBXProject "WQRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0986A8A21C6931F009F6FEF /* Debug */,
+				A0986A8B21C6931F009F6FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0986A8C21C6931F009F6FEF /* Build configuration list for PBXNativeTarget "WQRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0986A8D21C6931F009F6FEF /* Debug */,
+				A0986A8E21C6931F009F6FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0986A6E21C6931E009F6FEF /* Project object */;
+}
